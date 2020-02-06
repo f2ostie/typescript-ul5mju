@@ -1,0 +1,27 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+ion-card {
+  --background: #ffffff;
+  --border-color: #ffffff;
+}
+
+ion-card ion-list {
+  --background: #ffffff;
+  --border-color: #ffffff;
+}
+
+ion-card ion-item {
+  --background: #ffffff;
+  --border-color: #ffffff;
+}
+
+ion-card ion-card-content {
+  --background: #ffffff;
+  --border-color: #ffffff;
+}
+
+.bg-transparent {
+  background: transparent;
+}

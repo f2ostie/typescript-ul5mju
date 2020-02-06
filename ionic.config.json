@@ -1,0 +1,7 @@
+{
+  "name": "GatesApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

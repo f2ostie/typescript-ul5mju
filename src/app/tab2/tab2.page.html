@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Personen
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar></ion-searchbar>
+
+  <ion-list>
+    <ion-item (click)="addPerson()" lines="none">
+      <ion-avatar slot="start">
+        <img src="./assets/avatars/avatar-add-person.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Persoon toevoegen</h2>
+        <h3>via AMEI nummer</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item-divider>
+      <ion-label>
+        Zoek resulaten
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-item routerLink="/person-details" detail>
+      <ion-avatar slot="start">
+        <img src="./assets/avatars/avatar-finn.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Finn</h2>
+        <h3>458672</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail>
+      <ion-avatar slot="start">
+        <img src="./assets/avatars/avatar-han.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Han</h2>
+        <h3>45327827485</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail>
+      <ion-avatar slot="start">
+        <img src="./assets/avatars/avatar-rey.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Rey</h2>
+        <h3>45674278</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail>
+      <ion-avatar slot="start">
+        <img src="./assets/avatars/avatar-luke.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Luke</h2>
+        <h3>74586786</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
